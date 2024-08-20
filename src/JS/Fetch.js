@@ -21,12 +21,11 @@ export function getLocation() {
 export async function FetchData(url, coor) {
     try {
         const { lat, lng } = await getLocation()
-
         let homeOptions = {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'X-Goog-Api-Key': 'AIzaSyDMrvZDDntG6MBcPUWzYtZpD69PfaDSu6s',
+                'X-Goog-Api-Key': import.meta.env.VITE_API_KEY,
                 'X-Goog-FieldMask': 'places.displayName,places.types,places.fuelOptions,places.iconBackgroundColor,places.formattedAddress,places.id,places.location'
             },
             body: JSON.stringify({

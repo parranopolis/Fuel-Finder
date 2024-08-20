@@ -27,3 +27,4 @@ dist-ssr
 
 /item.json
 /placeDetails.json
+.env
