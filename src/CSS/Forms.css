@@ -1,0 +1,26 @@
+.formContent {
+    padding: 1rem;
+    flex-wrap: nowrap;
+    max-width: 700px;
+    margin: auto;
+}
+
+section label {
+    display: block;
+    font-size: var(--p-large);
+    margin: .5rem 0;
+}
+
+form.form {
+    width: 100%;
+}
+
+section input {
+    display: flex;
+    justify-content: center;
+    height: 43px;
+    width: 95%;
+    margin: 1rem auto;
+    font-size: var(--p-large);
+    padding-left: 1rem;
+}

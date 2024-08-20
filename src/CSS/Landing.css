@@ -1,0 +1,74 @@
+.landing-Banner {
+    background: center no-repeat url('./../assets/Gas_station.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -2rem;
+}
+
+.pPrimaryColor {
+    color: white;
+}
+
+.landing-Banner p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.landing-Purposes section p {
+    text-align: justify;
+}
+
+.landing-Tools {
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+
+.child1 {
+    background-color: #F46464;
+}
+
+.child2 {
+    background-color: #860D0D;
+}
+
+.child3 {
+    background-color: #C60B0B;
+}
+
+.child1 div {
+    background-color: #418E1D;
+}
+
+.child2 div {
+    background-color: #57C03C;
+}
+
+.child3 div {
+    background-color: #395423;
+}
+
+.landing-Tools section div {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.landing-Tools section .landing-text {
+    padding: 1.5rem;
+    color: white;
+}
+
+.Tools-Content section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.landing-footer .footerButton {
+    width: 70%;
+    margin: auto;
+}

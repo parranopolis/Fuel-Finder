@@ -1,0 +1,26 @@
+.footer {
+    margin-block-start: 5rem;
+    height: 12rem;
+    background-color: var(--dark-color);
+}
+
+.footer section span {
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-Message {
+    padding: 2rem;
+}
+
+.footer section .portfolio img {
+    background-color: white;
+    border-radius: 15%;
+}
+
+.footer .links span ion-icon,
+.logo {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+}
