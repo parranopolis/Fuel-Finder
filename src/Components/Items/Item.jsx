@@ -4,13 +4,13 @@ import { useNavigate } from 'react-router-dom';
 import './../../CSS/Items.css'
 import './../../CSS/Index.css'
 
-import { Button, Button2 } from "../Buttons/Buttons.jsx";
-import placeDetails from './../../PlaceDetails.json'
+import { Button } from "../Buttons/Buttons.jsx";
 import { fuelPrice, normalizeDataItemComponent } from '../../JS/index.js';
-import { FetchData, getPlaceDetails } from '../../JS/Fetch.js';
+import { getPlaceDetails } from '../../JS/Fetch.js';
+import { Loader } from '../Loader.jsx'
 
 
-import { FilterContext, RequestContext, FilteredItemsContext } from '../../Contexts/Context.jsx';
+import { FilterContext, RequestContext } from '../../Contexts/Context.jsx';
 
 // Props: 
 // gasInfo -> array with all information: 
@@ -82,7 +82,6 @@ export function ItemsDetail(data) {
     const { filter, setFilter } = useContext(FilterContext)
     const [detail, setDetail] = useState(null)
     let price = fuelPrice(fuelType, FilterFuelName)
-
     useEffect(() => {
         const getDetails = async () => {
             try {
@@ -102,7 +101,10 @@ export function ItemsDetail(data) {
                     <section className='gap flex'>
                         <section className='flex gap'>
                             <section> {/* brand logo */}
-                                <div className='item-logo'></div>
+                                <div className='item-logo'>
+                                    <img src={`/gas Station Logos/${data.infoData.name}.png`} alt={`${data.infoData.name} logo`} />
+
+                                </div>
                             </section>
                             <section className='itemInfo'> {/* Details */}
                                 <div className='infoName'>
@@ -135,8 +137,7 @@ export function ItemsDetail(data) {
                     {fuelType.map((e, i) => {
                         return <GradePrice fuelType={fuelType} key={i} fuelName={e.type} lastUpdate={e.updateTime} />
                     })}
-                </article></> : <p className='h1'>
-                loading...</p>}
+                </article></> : <Loader />}
         </>
     )
 }
