@@ -1,0 +1,41 @@
+.button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 43px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 1rem;
+    font-size: var(--p-large);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
+.light {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.darkLined {
+    color: var(--dark-color);
+    background-color: white;
+    border: 1px solid var(--dark-color);
+}
+
+.lightLined {
+    color: var(--highlight-color);
+    background-color: white;
+    border: 1px solid var(--highlight-color);
+}
