@@ -4,13 +4,13 @@ import { useNavigate } from 'react-router-dom';
 import './../../CSS/Items.css'
 import './../../CSS/Index.css'
 
-import { Button, Button2 } from "../Buttons/Buttons.jsx";
-import placeDetails from './../../PlaceDetails.json'
+import { Button } from "../Buttons/Buttons.jsx";
 import { fuelPrice, normalizeDataItemComponent } from '../../JS/index.js';
-import { FetchData, getPlaceDetails } from '../../JS/Fetch.js';
+import { getPlaceDetails } from '../../JS/Fetch.js';
+import { Loader } from '../Loader.jsx'
 
 
-import { FilterContext, RequestContext, FilteredItemsContext } from '../../Contexts/Context.jsx';
+import { FilterContext, RequestContext } from '../../Contexts/Context.jsx';
 
 // Props: 
 // gasInfo -> array with all information: 
@@ -83,7 +83,6 @@ export function ItemsDetail(data) {
     const [detail, setDetail] = useState(null)
     let price = fuelPrice(fuelType, FilterFuelName)
     useEffect(() => {
-        console.log(data.infoData)
         const getDetails = async () => {
             try {
                 const data = await getPlaceDetails(id)
@@ -138,8 +137,7 @@ export function ItemsDetail(data) {
                     {fuelType.map((e, i) => {
                         return <GradePrice fuelType={fuelType} key={i} fuelName={e.type} lastUpdate={e.updateTime} />
                     })}
-                </article></> : <p className='h1'>
-                loading...</p>}
+                </article></> : <Loader />}
         </>
     )
 }
