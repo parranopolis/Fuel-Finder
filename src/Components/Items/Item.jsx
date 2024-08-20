@@ -82,8 +82,8 @@ export function ItemsDetail(data) {
     const { filter, setFilter } = useContext(FilterContext)
     const [detail, setDetail] = useState(null)
     let price = fuelPrice(fuelType, FilterFuelName)
-
     useEffect(() => {
+        console.log(data.infoData)
         const getDetails = async () => {
             try {
                 const data = await getPlaceDetails(id)
@@ -102,7 +102,10 @@ export function ItemsDetail(data) {
                     <section className='gap flex'>
                         <section className='flex gap'>
                             <section> {/* brand logo */}
-                                <div className='item-logo'></div>
+                                <div className='item-logo'>
+                                    <img src={`/gas Station Logos/${data.infoData.name}.png`} alt={`${data.infoData.name} logo`} />
+
+                                </div>
                             </section>
                             <section className='itemInfo'> {/* Details */}
                                 <div className='infoName'>
