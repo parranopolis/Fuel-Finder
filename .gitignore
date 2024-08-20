@@ -25,6 +25,6 @@ dist-ssr
 
 # files ignored
 
-/item.json
-/placeDetails.json
+Item.json
+PlaceDetails.json
 .env
