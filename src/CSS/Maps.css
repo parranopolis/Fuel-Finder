@@ -1,0 +1,34 @@
+.getRouteMap-container {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--primary-color);
+
+}
+
+.map {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+
+div.markerDiv {
+    width: 4px;
+    height: 4px;
+}
+
+.youHere span {
+    width: 2em;
+    height: 2em;
+}
+
+.infoWindow {
+    width: 10rem;
+}
+
+.gm-style-iw-ch {
+    font-size: var(--h4);
+}
+
+.infoContent-text {
+    font-size: var(--p-large);
+}

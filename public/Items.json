@@ -1,0 +1,490 @@
+{
+    "places": [
+        {
+            "id": "ChIJB_bCuzR7bIcRZQhm6bzQRTI",
+            "types": [
+                "gas_station",
+                "convenience_store",
+                "car_wash",
+                "atm",
+                "finance",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "4650 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.7810017,
+                "longitude": -104.84652539999999
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Shell",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "4",
+                            "nanos": 20000000
+                        },
+                        "updateTime": "2024-07-22T15:18:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 680000000
+                        },
+                        "updateTime": "2024-07-22T12:49:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 190000000
+                        },
+                        "updateTime": "2024-07-22T16:30:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 120000000
+                        },
+                        "updateTime": "2024-07-22T18:00:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJIeLPN1N7bIcR4BDo-kFGbgI",
+            "types": [
+                "gas_station",
+                "car_wash",
+                "atm",
+                "finance",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3202 Peoria St, Aurora, CO 80010, USA",
+            "location": {
+                "latitude": 39.7629431,
+                "longitude": -104.8463352
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Conoco",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 950000000
+                        },
+                        "updateTime": "2024-07-22T18:08:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 650000000
+                        },
+                        "updateTime": "2024-07-22T14:24:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 400000000
+                        },
+                        "updateTime": "2024-07-21T13:06:48Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 300000000
+                        },
+                        "updateTime": "2024-07-22T17:49:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJG2MQkUx7bIcRfFPYeb7X3pY",
+            "types": [
+                "gas_station",
+                "car_wash",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3895 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.7707225,
+                "longitude": -104.8474025
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Phillips 66",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "4",
+                            "nanos": 60000000
+                        },
+                        "updateTime": "2024-07-20T10:07:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 660000000
+                        },
+                        "updateTime": "2024-07-19T14:37:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 560000000
+                        },
+                        "updateTime": "2024-07-22T17:17:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 260000000
+                        },
+                        "updateTime": "2024-07-22T13:52:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJL8NVcjV7bIcRE0j9PS7zEtg",
+            "types": [
+                "gas_station",
+                "convenience_store",
+                "car_wash",
+                "liquor_store",
+                "atm",
+                "finance",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "4495 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.777836,
+                "longitude": -104.84743999999999
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Phillips 66",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "4",
+                            "nanos": 50000000
+                        },
+                        "updateTime": "2024-07-22T04:04:47Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 650000000
+                        },
+                        "updateTime": "2024-07-22T14:25:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 530000000
+                        },
+                        "updateTime": "2024-07-22T16:15:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 250000000
+                        },
+                        "updateTime": "2024-07-22T17:43:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJhVdypstkbIcRO9rRULI-5UQ",
+            "types": [
+                "gas_station",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "12880 Albrook Dr, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.7806114,
+                "longitude": -104.8421736
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Conoco",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "4",
+                            "nanos": 150000000
+                        },
+                        "updateTime": "2024-07-22T10:43:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 850000000
+                        },
+                        "updateTime": "2024-07-22T07:16:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 300000000
+                        },
+                        "updateTime": "2024-07-22T11:13:14Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 270000000
+                        },
+                        "updateTime": "2024-07-22T07:16:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJAW9FwEx7bIcRQ6wUhwk0srs",
+            "types": [
+                "gas_station",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3860 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.7702331,
+                "longitude": -104.84678439999999
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Valero",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 850000000
+                        },
+                        "updateTime": "2024-07-22T17:15:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 500000000
+                        },
+                        "updateTime": "2024-07-18T09:00:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 300000000
+                        },
+                        "updateTime": "2024-07-22T06:43:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 200000000
+                        },
+                        "updateTime": "2024-07-22T17:01:32Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJ73_wzyh7bIcRDmeQzlkqROo",
+            "types": [
+                "convenience_store",
+                "gas_station",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3860 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.7702331,
+                "longitude": -104.84678439999999
+            },
+            "iconBackgroundColor": "#4B96F3",
+            "displayName": {
+                "text": "Corner Store",
+                "languageCode": "en"
+            }
+        },
+        {
+            "id": "ChIJSTKtOzV7bIcR-BD8DhQsD4s",
+            "types": [
+                "gas_station",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "4500 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.778329,
+                "longitude": -104.84635469999999
+            },
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Conoco",
+                "languageCode": "en"
+            },
+            "fuelOptions": {
+                "fuelPrices": [
+                    {
+                        "type": "PREMIUM",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "4",
+                            "nanos": 150000000
+                        },
+                        "updateTime": "2024-07-22T07:16:00Z"
+                    },
+                    {
+                        "type": "MIDGRADE",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 850000000
+                        },
+                        "updateTime": "2024-07-22T07:16:00Z"
+                    },
+                    {
+                        "type": "DIESEL",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 500000000
+                        },
+                        "updateTime": "2024-07-02T22:00:00Z"
+                    },
+                    {
+                        "type": "REGULAR_UNLEADED",
+                        "price": {
+                            "currencyCode": "USD",
+                            "units": "3",
+                            "nanos": 300000000
+                        },
+                        "updateTime": "2024-07-22T16:55:00Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ChIJZX42kEx7bIcRTthe5h7-qhw",
+            "types": [
+                "convenience_store",
+                "gas_station",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3895 Peoria St, Denver, CO 80239, USA",
+            "location": {
+                "latitude": 39.770737499999996,
+                "longitude": -104.84775049999999
+            },
+            "iconBackgroundColor": "#4B96F3",
+            "displayName": {
+                "text": "Jenny's Market",
+                "languageCode": "en"
+            }
+        },
+        {
+            "id": "ChIJM2lsOFN7bIcR6lr9_RTpj8Y",
+            "types": [
+                "convenience_store",
+                "gas_station",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "formattedAddress": "3202 Peoria St, Aurora, CO 80010, USA",
+            "location": {
+                "latitude": 39.763004699999996,
+                "longitude": -104.84605049999999
+            },
+            "iconBackgroundColor": "#4B96F3",
+            "displayName": {
+                "text": "Tara Mart & Gas Inc",
+                "languageCode": "en"
+            }
+        }
+    ]
+}

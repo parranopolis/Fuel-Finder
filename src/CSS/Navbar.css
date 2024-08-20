@@ -1,0 +1,65 @@
+.navbar {
+    background: linear-gradient(90deg, rgba(241, 91, 181, 1) 0%, rgba(155, 93, 229, 1) 35%, rgba(0, 187, 249, 1) 100%);
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .flex .Logo {
+    background: center no-repeat url('../assets/Logos/8.png');
+    background-size: cover;
+    width: 10rem;
+    height: 3rem;
+}
+
+.navbar header {
+    padding: .8rem 1rem;
+    justify-content: space-between;
+}
+
+.menuLines span {
+    background-color: var(--dark-color);
+    width: 2rem;
+    height: .3rem;
+    margin: .4rem;
+}
+
+.menuOptions {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    width: 300px;
+    position: absolute;
+    top: 4.1rem;
+    left: -400px;
+    background-color: var(--dark-color);
+    padding-bottom: 2rem;
+}
+
+.menuOptions span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: .3rem 2rem;
+    font-size: var(--h5);
+}
+
+.menuOptions span:hover {
+    text-decoration: underline;
+}
+
+.menuOptions span a {
+    color: white;
+    text-decoration: none;
+}
+
+.is-active {
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(241, 91, 181, 1) 0%, rgba(155, 93, 229, 1) 50%, rgba(0, 187, 249, 1) 100%);
+}
+
+section.mapIcon {
+    font-size: var(--h4);
+}
