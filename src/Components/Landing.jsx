@@ -4,9 +4,13 @@ import map from './../assets/Map.png'
 import { Button3 } from './Buttons/Buttons'
 import { Header } from './Navbar'
 import { Footer } from './Footer'
+import { useEffect } from 'react'
 
 
 export function Landing() {
+    useEffect(() => {
+        document.title = 'Home'
+    })
     return (
         <>
             <Header />

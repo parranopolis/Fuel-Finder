@@ -19,6 +19,7 @@ export function ItemDetailView() {
 
     useEffect(() => {
         if (request === undefined) reroute('/ErrorPage')
+        document.title = 'Item Detail View'
     }, [request])
 
     if (!request) {

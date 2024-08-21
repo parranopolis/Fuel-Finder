@@ -22,6 +22,7 @@ export function NearbySearch() {
     const q = document.querySelectorAll('.yNHHyP-marker-view')
     useEffect(() => {
         setItems(normalizeDataItemComponent(request, filter.brand))
+        document.title = 'Nearby Search'
     }, [filter, request, position])
 
     return (

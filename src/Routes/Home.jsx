@@ -13,6 +13,9 @@ export function Home() {
     const { request } = useContext(RequestContext)
     const [error, setError] = useState(null)
 
+    useEffect(() => {
+        document.title = 'Find a Storage'
+    })
     return (
         <>
             {request ? <div>
