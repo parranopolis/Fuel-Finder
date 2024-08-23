@@ -20,19 +20,28 @@ import { FilterContext, RequestContext } from '../../Contexts/Context.jsx';
 export function Item() {
     const { filter } = useContext(FilterContext)
     const { request, setRequest } = useContext(RequestContext)
-    const [items, setItems] = useState(request)
+    const [items, setItems] = useState(normalizeDataItemComponent(request, filter.brand))
     const itemDetail = useNavigate()
-
+    let itemData = []
     if (request == undefined) console.log('undefine at Item')
 
     useEffect(() => {
-        setItems(normalizeDataItemComponent(request, filter.brand))
-    }, [filter])
+
+        const sortedItems = normalizeDataItemComponent(request, filter.brand)
+            .map((item) => ({
+                item,
+                price: parseFloat(fuelPrice(item.fuelOptions.fuelPrices, filter).slice(1, 5))
+            }))
+            .sort((a, b) => filter.sortOrder === 'LOW FIRST' ? a.price - b.price : b.price - a.price)
+            .map(({ item }) => item)
+
+        setItems(sortedItems)
+
+    }, [filter, request])
     return (
         <>
             {items.length > 0 ? (items.map((item, i) => {
                 const price = fuelPrice(item.fuelOptions.fuelPrices, filter)
-
                 return (
                     <article
                         key={item.id}

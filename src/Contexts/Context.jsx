@@ -11,7 +11,8 @@ export const FilteredItemsContext = createContext()
 
 let filterObj = {
     typeFuel: 'Regular',
-    brand: 'All Stations Brands'
+    brand: 'All Stations Brands',
+    sortOrder: 'LOW FIRST'
 }
 let coorObj = {
     lat: null,

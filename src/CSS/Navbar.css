@@ -63,3 +63,7 @@
 section.mapIcon {
     font-size: var(--h4);
 }
+
+.logo-box {
+    height: 3rem;
+}

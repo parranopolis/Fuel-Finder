@@ -21,6 +21,7 @@ export function Filter({ name, options, id }) {
         const id = e.target.id
         if (id == 'brand') e.target.value != 'All Stations Brands' ? isActive('active') : isActive('')
         if (id == 'typeFuel') e.target.value != 'Regular' ? isActive('active') : isActive('')
+        if (id == 'sortOrder') e.target.value != 'No Filter' ? isActive('active') : isActive('')
         setFilter({ ...filter, [id]: value })
     }
     return (
@@ -29,7 +30,6 @@ export function Filter({ name, options, id }) {
             id={id}
             className={`${className} ${active}`}
             onChange={handleChange}
-
         >
             <option>{name}</option>
             {options.map((element, index) => {

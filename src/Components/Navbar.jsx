@@ -15,9 +15,10 @@ export function Header() {
                     <span></span>
                     <span></span>
                 </section>
-                <section className='Logo'><Link to={'/'}>
-                    <div></div>
-                </Link> </section>
+                <section className='Logo'>
+                    <Link to={'/'}>
+                        <div className='logo-box'></div>
+                    </Link> </section>
                 <section className='mapIcon'>
                     <Link to={'/NearbySearch'} ><ion-icon name="map-outline"></ion-icon></Link> {/* this have to be a link to "Search Nearby" */}
                 </section>

@@ -15,7 +15,6 @@ export function Form({ title }) {
                 <span className="h4">{title}</span>
                 <form action="" className="form">
                     <section className="formFilters">
-
                         <div>
                             <div>
                                 <label htmlFor="typeFuel" id="typeFuel">Fuel Type
@@ -27,6 +26,13 @@ export function Form({ title }) {
                             <div>
                                 <label htmlFor="brand" id="brand">Station Brand
                                     <Filter id='brand' name={'All Stations Brands'} options={brands} />
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label htmlFor="sortOrder" id="brand">Price
+                                    <Filter id='sortOrder' name={'Low First'} options={['Hight First']} />
                                 </label>
                             </div>
                         </div>
