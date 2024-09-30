@@ -33,7 +33,7 @@ export function NearbySearch() {
                     <APIProvider apiKey={'AIzaSyAF44fz_AZNSSdBIp15aDx5KK_9KNr2o4o'}>
                         <Map
                             style={{ height: '50vh' }}
-                            defaultZoom={14}
+                            defaultZoom={13}
                             defaultCenter={coor}
                             mapId={'testingMap'}
                         >

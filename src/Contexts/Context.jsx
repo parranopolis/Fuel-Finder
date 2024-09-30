@@ -33,14 +33,25 @@ export const RequestProvider = ({ children }) => {
     const [request, setRequest] = useState()
     const [coor, setCoor] = useState(coorObj)
     const [brands, setBrands] = useState([])
+    // const lat = 39.782498
+    // const lng = -104.847008
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const { lat, lng } = await getLocation()
                 setCoor({ lat, lng })
+<<<<<<< Updated upstream
                 const data = await FetchData('https://places.googleapis.com/v1/places:searchNearby')
                 setRequest(data)
                 setBrands(allBrands(data))
+=======
+                // setCoor({ lat, lng })
+
+                const data = await FetchData('https://places.googleapis.com/v1/places:searchNearby')
+                setRequest(data)
+                setBrands(allBrands(data))
+                console.log(data)
+>>>>>>> Stashed changes
             } catch (error) {
                 console.log(error.message)
             }
