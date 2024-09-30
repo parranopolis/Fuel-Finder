@@ -38,11 +38,9 @@ export const RequestProvider = ({ children }) => {
             try {
                 const { lat, lng } = await getLocation()
                 setCoor({ lat, lng })
-
                 const data = await FetchData('https://places.googleapis.com/v1/places:searchNearby')
                 setRequest(data)
                 setBrands(allBrands(data))
-
             } catch (error) {
                 console.log(error.message)
             }

@@ -40,9 +40,12 @@ export function filterBrand(stations, brand) {
 // Recibe an object that comes from the state and return all the elements that have the 'fuelOptions' in the main Object
 export function normalizeDataItemComponent(allStations, brand) {
     let gasInfo = []
+
     if (!allStations) {
         allStations = []
         return allStations
+    } if (Object.keys(allStations).length == 0) {
+        console.log('vacio')
     } else {
         allStations.places.forEach(item => {
             if (item.hasOwnProperty('fuelOptions')) {

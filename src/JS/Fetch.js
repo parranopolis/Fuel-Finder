@@ -37,7 +37,7 @@ export async function FetchData(url, coor) {
                             latitude: lat,
                             longitude: lng
                         },
-                        radius: 2000.0
+                        radius: 4000.0
                     }
                 }
             })
