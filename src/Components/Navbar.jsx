@@ -34,15 +34,15 @@ export function Header() {
                 </span>
                 <span>
                     <ion-icon name="logo-github"></ion-icon>
-                    <a href="">Github</a>
+                    <a href="https://github.com/parranopolis" target='_blank'>Github</a>
                 </span>
                 <span>
                     <ion-icon name="link-outline"></ion-icon>
-                    <a href="">See the code</a>
+                    <a href="https://github.com/parranopolis/Fuel-Finder/tree/master" target='_blank'>Repo</a>
                 </span>
                 <span>
                     <ion-icon name="add-circle-outline"></ion-icon>
-                    <a href="">More Projects</a>
+                    <a href="https://sergioparral.github.io/PortFolio/" target='_blank'>Portfolio</a>
                 </span>
             </section>
         </article>
