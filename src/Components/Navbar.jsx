@@ -42,7 +42,7 @@ export function Header() {
                 </span>
                 <span>
                     <ion-icon name="add-circle-outline"></ion-icon>
-                    <a href="https://sergioparral.github.io/PortFolio/" target='_blank'>Portfolio</a>
+                    <a href="https://sergioparral.github.io/PortFolio/ " target='_blank'>Portfolio</a>
                 </span>
             </section>
         </article>
