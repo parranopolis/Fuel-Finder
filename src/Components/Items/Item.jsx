@@ -25,8 +25,6 @@ export function Item() {
     let itemData = []
     if (request == undefined) console.log('undefine at Item')
     useEffect(() => {
-        console.log(items)
-
         const sortedItems = normalizeDataItemComponent(request, filter.brand)
             .map((item) => ({
                 item,
