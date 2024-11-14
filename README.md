@@ -1,34 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-4. **Run the app:**
-```npm run dev```
-
-fuel-finder/
-│
-├── public/             # Public assets
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Main pages and views
-│   ├── services/       # API calls and data fetching
-│   ├── App.js          # Main app component
-│   └── index.js        # Entry point
-└── package.json        # Project metadata and dependencies
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Fuel-Finder
-Website to see the gas price based on user's location
-=======
-=======
->>>>>>> cadd5df (first commit)
->>>>>>> master
-# React + Vite
-=======
 # ⛽ Fuel Finder
->>>>>>> 9c98310 (docs: add README for Fuel Finder project)
 
 **Fuel Finder** is a web application designed to help users locate fuel stations and compare prices in real-time. It provides quick, accurate, and reliable data to assist users in finding the best fuel prices nearby.
 
