@@ -1,5 +1,21 @@
 <<<<<<< HEAD
 =======
+
+4. **Run the app:**
+```npm run dev```
+
+fuel-finder/
+│
+├── public/             # Public assets
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Main pages and views
+│   ├── services/       # API calls and data fetching
+│   ├── App.js          # Main app component
+│   └── index.js        # Entry point
+└── package.json        # Project metadata and dependencies
+
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Fuel-Finder
